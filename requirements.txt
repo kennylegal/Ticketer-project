@@ -1,0 +1,7 @@
+Django>=5.0,<5.1
+django-ninja
+django-ninja-jwt[crypto]
+django-ninja-extra
+pydantic[email]
+django-cors-headers
+python-decouple

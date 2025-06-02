@@ -1,0 +1,14 @@
+User
+- id, name, email, password, role
+
+Event
+- id, user_id (FK), title, description, date, venue, image_url
+
+Ticket
+- id, event_id (FK), type, price, quantity, available_from, available_until
+
+Purchase
+- id, user_id (FK), ticket_id (FK), quantity, payment_status, created_at
+
+AttendeeNotification
+- id, event_id (FK), message, created_at
